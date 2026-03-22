@@ -5,7 +5,8 @@ An ESLint plugin that detects security vulnerabilities in your JavaScript/TypeSc
 ## Installation
 
 ```bash
-npm install eslint-plugin-securelint --save-dev
+# From GitHub (not yet published to npm)
+npm install github:tomer-wei/securelint --save-dev
 ```
 
 ## Usage
