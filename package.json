@@ -12,6 +12,7 @@
     "build": "tsc",
     "test": "vitest run",
     "test:watch": "vitest",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -23,9 +24,6 @@
     "linter"
   ],
   "license": "MIT",
-  "peerDependencies": {
-    "eslint": ">=8.0.0"
-  },
   "devDependencies": {
     "@types/eslint": "^9.6.0",
     "eslint": "^9.0.0",
